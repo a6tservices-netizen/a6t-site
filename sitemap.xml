@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.a6t-assainissement.fr/</loc><priority>1.0</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/debouchage-canalisation.html</loc><priority>1.0</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/curage-haute-pression.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/inspection-camera.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/pompage-vidange.html</loc><priority>0.9</priority></url>
   <url><loc>https://www.a6t-assainissement.fr/fosse-septique.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.a6t-assainissement.fr/bac-a-graisses.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.a6t-assainissement.fr/debouchage-canalisation.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.a6t-assainissement.fr/curage-haute-pression.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.a6t-assainissement.fr/inspection-camera.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.a6t-assainissement.fr/pompage-vidange.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/bac-a-graisses.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/syndics-copropietes.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/sarcelles.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/garges-les-gonesse.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/villiers-le-bel.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/gonesse.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.a6t-assainissement.fr/zone-intervention.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.a6t-assainissement.fr/avis.html</loc><priority>0.6</priority></url>
   <url><loc>https://www.a6t-assainissement.fr/contact.html</loc><priority>0.7</priority></url>
 </urlset>
