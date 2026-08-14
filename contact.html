@@ -4,9 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light only">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
 <title>Contact &amp; devis gratuit | A6T Assainissement — Île-de-France</title>
 <meta name="description" content="Demandez votre devis gratuit à A6T Assainissement : débouchage, fosse septique, bac à graisses, curage, inspection caméra. Réponse rapide, intervention 7j/7 en Île-de-France et dans l'Oise.">
 <link rel="canonical" href="https://www.a6t-assainissement.fr/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.a6t-assainissement.fr/assets/og-image.png">
 <meta name="robots" content="index, follow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +40,19 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a href="index.html" class="logo">A6T <span>·</span><small>Assainissement</small></a>
+    <a href="index.html" class="logo">
+      <svg width="38" height="38" viewBox="0 0 120 120" aria-hidden="true">
+        <defs>
+          <radialGradient id="hlCore" cx="35%" cy="35%" r="70%"><stop offset="0%" stop-color="#5fd4cf"/><stop offset="100%" stop-color="#0c7274"/></radialGradient>
+          <linearGradient id="hlBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#182a47"/><stop offset="100%" stop-color="#0b1524"/></linearGradient>
+        </defs>
+        <rect x="4" y="4" width="112" height="112" rx="26" fill="url(#hlBg)"/>
+        <circle cx="60" cy="60" r="33" fill="none" stroke="#4a5a78" stroke-width="4"/>
+        <circle cx="60" cy="60" r="23" fill="none" stroke="#0f8b8d" stroke-width="4"/>
+        <circle cx="60" cy="60" r="12" fill="url(#hlCore)"/>
+      </svg>
+      <span class="logo-word">A6T<small>Assainissement</small></span>
+    </a>
     <nav class="main-nav">
       <a href="index.html">Accueil</a>
       <div class="nav-dropdown">
@@ -88,27 +105,31 @@
 <section>
   <div class="wrap grid-2">
     <div>
-      <form id="contact-form">
+      <form id="contact-form" action="https://formsubmit.co/contact@a6t-services.fr" method="POST">
+        <input type="hidden" name="_subject" value="Nouvelle demande de devis — Site A6T Assainissement">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://www.a6t-assainissement.fr/contact.html?envoye=1">
         <div class="form-row">
           <div class="form-field">
             <label for="nom">Nom</label>
-            <input type="text" id="nom" name="nom" required>
+            <input type="text" id="nom" name="Nom" required>
           </div>
           <div class="form-field">
             <label for="telephone">Téléphone</label>
-            <input type="tel" id="telephone" name="telephone" required>
+            <input type="tel" id="telephone" name="Téléphone" required>
           </div>
         </div>
         <div class="form-field">
           <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="Email" required>
         </div>
         <div class="form-field">
           <label for="service">Service concerné</label>
-          <select id="service" name="service">
+          <select id="service" name="Service concerné">
             <option>Fosse septique</option>
             <option>Bac à graisses</option>
-            <option>Débouchage de canalisation</option>
+            <option>Débouchage de canalisations</option>
             <option>Curage haute pression</option>
             <option>Inspection caméra</option>
             <option>Pompage / vidange</option>
@@ -117,7 +138,7 @@
         </div>
         <div class="form-field">
           <label for="message">Votre message</label>
-          <textarea id="message" name="message" placeholder="Décrivez la situation : adresse, type de bien, symptôme observé..." required></textarea>
+          <textarea id="message" name="Message" placeholder="Décrivez la situation : adresse, type de bien, symptôme observé..." required></textarea>
         </div>
         <button type="submit" class="btn btn-gold btn-block">Envoyer la demande</button>
         <p id="form-status"></p>
@@ -162,7 +183,19 @@
   <div class="wrap">
     <div class="footer-simple">
       <div>
-        <div class="footer-logo">A6T <span>·</span><small>Assainissement</small></div>
+        <div class="footer-logo">
+          <svg width="26" height="26" viewBox="0 0 120 120" aria-hidden="true">
+            <defs>
+              <radialGradient id="flCore" cx="35%" cy="35%" r="70%"><stop offset="0%" stop-color="#5fd4cf"/><stop offset="100%" stop-color="#0c7274"/></radialGradient>
+              <linearGradient id="flBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#182a47"/><stop offset="100%" stop-color="#0b1524"/></linearGradient>
+            </defs>
+            <rect x="4" y="4" width="112" height="112" rx="26" fill="url(#flBg)"/>
+            <circle cx="60" cy="60" r="33" fill="none" stroke="#4a5a78" stroke-width="4"/>
+            <circle cx="60" cy="60" r="23" fill="none" stroke="#0f8b8d" stroke-width="4"/>
+            <circle cx="60" cy="60" r="12" fill="url(#flCore)"/>
+          </svg>
+          <span>A6T <span class="dot">·</span><small>Assainissement</small></span>
+        </div>
         <p class="text-muted" style="font-size:0.78rem; max-width:38ch;">SARL — débouchage, curage, inspection caméra et assainissement individuel &amp; collectif en Île-de-France et dans l'Oise.</p>
       </div>
       <ul class="footer-contact-line">
@@ -180,24 +213,14 @@
 
 <script src="js/main.js"></script>
 <script>
-  document.getElementById('contact-form').addEventListener('submit', function(e){
-    e.preventDefault();
-    var nom = document.getElementById('nom').value;
-    var tel = document.getElementById('telephone').value;
-    var email = document.getElementById('email').value;
-    var service = document.getElementById('service').value;
-    var message = document.getElementById('message').value;
-    var subject = encodeURIComponent('Demande de devis — ' + service);
-    var body = encodeURIComponent(
-      'Nom : ' + nom + '\n' +
-      'Téléphone : ' + tel + '\n' +
-      'E-mail : ' + email + '\n' +
-      'Service : ' + service + '\n\n' +
-      'Message :\n' + message
-    );
-    window.location.href = 'mailto:contact@a6t-services.fr?subject=' + subject + '&body=' + body;
-    document.getElementById('form-status').textContent = "Votre client mail va s'ouvrir pour finaliser l'envoi.";
-  });
+  // Affiche un message de confirmation si on revient d'un envoi réussi
+  if (window.location.search.indexOf('envoye=1') !== -1) {
+    var statusEl = document.getElementById('form-status');
+    if (statusEl) {
+      statusEl.textContent = "Message envoyé, merci ! Nous revenons vers vous rapidement.";
+      statusEl.style.color = 'var(--gold-bright)';
+    }
+  }
 </script>
 </body>
 </html>
